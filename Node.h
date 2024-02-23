@@ -37,7 +37,7 @@ int dequeue(NodePtr* head, NodePtr* tail){
    if(*head==NULL) *tail=NULL;
    return value;
    }
-   printf("Empty queue");
+   printf("Empty queue\n");
    return 0;
 }
 

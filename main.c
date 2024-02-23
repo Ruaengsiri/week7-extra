@@ -27,6 +27,7 @@ int main(int argc , char **argv) {
   enqueue(&headPtr,&tailPtr,2);
   y=dequeue(&headPtr,&tailPtr);
   printf("%d\n",y);
+
 //5 x 9 x 7 x 8 2 x
 
 
@@ -44,6 +45,7 @@ int i,x;
 for(i=1;i<argc;i++){
         if(strcmp(argv[i],"x")==0){
             x=dequeue_struct(&q);
+            if(x!=0)
             printf("dequeing %d\n",x);
         }
         else {
