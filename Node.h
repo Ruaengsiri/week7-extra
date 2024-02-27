@@ -9,6 +9,7 @@
 
 struct node
 {
+    int order_number;
     int data;
     struct node *nextPtr;
 };
